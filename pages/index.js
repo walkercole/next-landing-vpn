@@ -7,7 +7,7 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title='TermNest Landing Page' />
+      <SeoHead title='TermNest -- Get your business online fast and secure with TermNest' />
       <Layout>
         <Hero />
         <Feature />

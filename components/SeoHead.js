@@ -7,7 +7,7 @@ const defaultMeta = {
   title: 'TermNest',
   siteName: 'TermNest',
   description:
-    'Landing page Term Nest -- Get your business online fast and secure with TermNest',
+    'TermNest -- Get your business online fast and secure with TermNest',
   // change base url of your web (without '/' at the end)
   url: 'https://next-landing-vpn.vercel.app',
   type: 'website',
