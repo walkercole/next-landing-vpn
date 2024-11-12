@@ -10,40 +10,40 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Melissa P.",
+      image: "/assets/people-2.png",
+      city: "Atlanta",
+      country: "GA",
+      rating: "5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Wow... I am very happy I chose TermNest, it far surpassed my expectations as I've been in 'set it and forget it' mode for months now!",
     },
     {
-      name: "iezh Robert",
+      name: "iezh R.",
       image: "/assets/people-3.png",
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Fantastic, I took the leap for the permium as I had to travel a lot in the coming months. I didn't worry about a thing and didn't need a lawyer to draft a policy!",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Cris M.",
+      image: "/assets/people-1.png",
+      city: "BC",
+      country: "Canada",
+      rating: "5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "I started off only wanting a website I could deploy myself.. I'm so glad I chose the hosted plan, I've had so much more time to focus on my clients",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Lasles V.",
+      image: "/assets/card-image.png",
+      city: "Rochester",
+      country: "NY",
+      rating: "5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "We really couldn't afford to hire someone to handle managing our website and all the bells and whistles that go along with it..",
     },
   ],
 }) => {

@@ -8,18 +8,19 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Users",
-      number: "390",
+      name: "Satisfied Clients",
+      number: "250+",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      name: "Locations",
-      number: "20",
-      icon: "/assets/Icon/gridicons_location.svg",
+      name: "Website templates",
+      subname: "(Including this site you're on!)",
+      number: "7+",
+      icon: "/assets/Icon/stars.svg",
     },
     {
-      name: "Server",
-      number: "50",
+      name: "Worry-Free Hosting",
+      number: "100%",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -37,11 +38,10 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Want anything to be easy with <strong>LaslesVPN</strong>.
+                Get Your Business Online Easily with <strong>TermNest</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                Provide a network for all your needs with ease and fun using
-                LaslesVPN discover interesting features from us.
+                Build, brand, and launch your professional website with ease. Our solutions make it simple to create, host, and secure your site, so you can focus on what matters most—growing your business.
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>
@@ -75,9 +75,10 @@ const Hero = ({
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xl text-black-600 font-bold">
-                    {listUsers.number}+
+                    {listUsers.number}
                   </p>
                   <p className="text-lg text-black-500">{listUsers.name}</p>
+                  <p className="text-sm text-black-500">{listUsers.subname}</p>
                 </div>
               </div>
             </motion.div>
